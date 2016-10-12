@@ -1,0 +1,21 @@
+{
+    "author": "scottrules44@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "corona-plugin",
+    "pebble": {
+        "displayName": "corona plugin",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "uuid": "16ac75b9-e96f-486e-96e0-492efc1af7f0",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
