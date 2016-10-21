@@ -17,7 +17,9 @@ end )
 local myText2 = display.newText( "Message:", display.contentCenterX, display.contentCenterY-30 , native.systemFont )
 
 local myText3 = display.newText( "Not connected", display.contentCenterX, display.contentCenterY , native.systemFont )
-
+if pebble.isConnected()== true then
+    myText3.text = "watch connected"
+end
 pebble.init("16ac75b9-e96f-486e-96e0-492efc1af7f0", function(e)
     local json = require("json")
     if(e) then
@@ -33,4 +35,5 @@ pebble.init("16ac75b9-e96f-486e-96e0-492efc1af7f0", function(e)
         myText2.text = "Message:"..e.response
     end
 end, true)
+
 
