@@ -42,6 +42,6 @@ settings =
 	},
 	["plugin.pebble"] =
     {
-        publisherId = "com.scottrules44",
+        publisherId = "tech.scotth",
     },
 }
